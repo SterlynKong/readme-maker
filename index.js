@@ -1,26 +1,8 @@
-// // array of questions for user
-// const questions = [
-
-// ];
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
-
-
 // require the fs module interact with the file system (writeFiles)
 const fs = require("fs");
 
-//path allows additional uses and built into js node
-const path = require("path");
+// //path allows additional uses and built into js node
+// const path = require("path");
 
 // require inquirer to prompt users for input
 const inquirer = require("inquirer");
@@ -29,7 +11,7 @@ const inquirer = require("inquirer");
 const generateMarketdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const prompts = [
+const questions = [
   {
     type: "input",
     name: "github",
@@ -38,7 +20,7 @@ const prompts = [
   {
     type: "input",
     name: "email",
-    message: "Please provide your email address."
+    message: "Please provide your email address:"
   },
   {
     type: "input",
@@ -48,7 +30,12 @@ const prompts = [
   {
     type: "input",
     name: "description",
-    message: "Please provide a short project description."
+    message: "Please provide a short project description:"
+  },
+  {
+    type: "input",
+    name: "installation",
+    message: "What command should be run to install dependencies?"
   },
   {
     type: "list",
@@ -58,31 +45,42 @@ const prompts = [
   },
   {
     type: "input",
-    name: "installation",
-    message: "What command should be run to install dependencies?",
-    deafault: "npm install"
+    name: "test",
+    message: "What is the command to run tests?"
   },
   {
       type: "input",
-      name: "app_url",
-      message: "Please provide the URL of the deployed application (where applicable):",
-      deafault: "N/A"
+      name: "url",
+      message: "Please provide the URL of the deployed application (where applicable):"
   },
   {
     type: "input",
-    name: "usage",
-    message: "What are the rules regarding usage?"
+    name: "img",
+    message: "Please provide a path to a screenshot / image of the application:",
+    default: "N/A"
   },
   {
     type: "input",
-    name: "how_to_contribute",
+    name: "contributing",
     message: "Please describe how users can contribute to this project:",
-    deafault: "Contact via GitHub or email for permission to contribute!"
+    default: "Contact via GitHub or email for permission to contribute!"
   }
 
 ];
 
+// function to write README file
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(('./dist/' + fileName), data);
+}
 
+// function to initialize program
+function init() {
+    inquirer.prompt(questions)
+    .then((inquirerResponses) => {
+        console.log("Generating README...");
+        writeToFile("README.md", generateMarketdown({...inquirerResponses}));
+    })
+}
 
 // function call to initialize program
 init();
