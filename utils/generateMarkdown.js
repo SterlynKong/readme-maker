@@ -60,23 +60,23 @@ function generateMarkdown(data) {
 
 
   ## Table of contents:
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Tests](#testing)
-  *[URL](#url)
-  *[Screen-Shot](#screenshot)
-  *[Contributing](#contributing)
-  *[Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#testing)
+  * [URL](#url)
+  * [Screen-Shot](#screenshot)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
 
 
 
   ## Installation:
   To install necessary dependencies, run the following command(s):
 
-  =======================================
+  \`\`\`
   ${data.installation}
-  =======================================
+  \`\`\`
 
 
   ## Usage:
@@ -89,9 +89,9 @@ function generateMarkdown(data) {
 
   ## Testing:
   To run test, please run the following command:
-  =======================================
+  \`\`\`
   ${data.test}
-  =======================================
+  \`\`\`
 
 
   ## URL:

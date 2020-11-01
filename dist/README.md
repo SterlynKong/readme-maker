@@ -1,5 +1,5 @@
 # readme-maker
-  ![GitHub license](https://img.shields.io/badge/license-GPL 3.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description:
   readme-maker
@@ -7,23 +7,23 @@
 
 
   ## Table of contents:
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Tests](#testing)
-  *[URL](#url)
-  *[Screen-Shot](#screenshot)
-  *[Contributing](#contributing)
-  *[Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#testing)
+  * [URL](#url)
+  * [Screen-Shot](#screenshot)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
 
 
 
   ## Installation:
   To install necessary dependencies, run the following command(s):
 
-  =======================================
+  ```
   npm install
-  =======================================
+  ```
 
 
   ## Usage:
@@ -33,22 +33,22 @@
 
 
   ## License
-  This project is licensed under the GPL 3.0 license.
+  This project is licensed under the MIT license.
 
 
   ## Testing:
   To run test, please run the following command:
-  =======================================
+  ```
   npm test
-  =======================================
+  ```
 
 
   ## URL:
-  https://www.cbc.ca
+  https://www.google.com
 
 
   ## Image:
-  ![readme-maker](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.financialfreedomblogger.com%2Fwp-content%2Fuploads%2F2014%2F12%2Ffreestockimagesforcommercialuse-skitterphoto.jpg&imgrefurl=https%3A%2F%2Fwww.financialfreedomblogger.com%2Ffree-stock-images-for-commercial-use%2F&tbnid=PyV_CblvvBtEWM&vet=12ahUKEwj9u-qNweLsAhVSYKwKHZAxALkQMygHegUIARC5AQ..i&docid=R6BxL21tLdN3MM&w=980&h=653&q=free%20to%20use%20images&client=safari&ved=2ahUKEwj9u-qNweLsAhVSYKwKHZAxALkQMygHegUIARC5AQ "readme-maker Screenshot")
+  ![readme-maker](https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.freeimages.com%2Fimages%2Fsmall-previews%2Ffec%2Fsunset-rays-1391805.jpg&imgrefurl=https%3A%2F%2Fwww.freeimages.com%2F&tbnid=0nnqBMgcd8SGpM&vet=12ahUKEwj9u-qNweLsAhVSYKwKHZAxALkQMygPegUIARDJAQ..i&docid=Zo1HkhjBOuQCOM&w=319&h=240&q=free%20to%20use%20images&client=safari&ved=2ahUKEwj9u-qNweLsAhVSYKwKHZAxALkQMygPegUIARDJAQ "readme-maker Screenshot")
 
 
   ## Contributing:
