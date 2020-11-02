@@ -56,8 +56,7 @@ const questions = [
   {
     type: "input",
     name: "img",
-    message: "Please provide a path to a screenshot / image of the application:",
-    default: "N/A"
+    message: "Please provide a path to a screenshot / image of the application:"
   },
   {
     type: "input",

@@ -45,7 +45,7 @@ function createImg (proj_title, img) {
       `![${proj_title}](${img} "${proj_title} Screenshot")`
     )
   }
-  return ''
+  return 'N/A'
 }
 
 
@@ -89,6 +89,7 @@ function generateMarkdown(data) {
 
   ## Testing:
   To run test, please run the following command:
+
   \`\`\`
   ${data.test}
   \`\`\`

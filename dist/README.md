@@ -1,8 +1,8 @@
 # readme-maker
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  
 
   ## Description:
-  readme-maker
+  This application, written in noded will create a README.md file based on input provided by a user at prompts at the command line.
 
 
 
@@ -28,27 +28,26 @@
 
   ## Usage:
   
-* [License](#license)
-
 
 
   ## License
-  This project is licensed under the MIT license.
+  
 
 
   ## Testing:
   To run test, please run the following command:
+
   ```
-  npm test
+  
   ```
 
 
   ## URL:
-  https://www.google.com
+  N/A
 
 
   ## Image:
-  ![readme-maker](https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.freeimages.com%2Fimages%2Fsmall-previews%2Ffec%2Fsunset-rays-1391805.jpg&imgrefurl=https%3A%2F%2Fwww.freeimages.com%2F&tbnid=0nnqBMgcd8SGpM&vet=12ahUKEwj9u-qNweLsAhVSYKwKHZAxALkQMygPegUIARDJAQ..i&docid=Zo1HkhjBOuQCOM&w=319&h=240&q=free%20to%20use%20images&client=safari&ved=2ahUKEwj9u-qNweLsAhVSYKwKHZAxALkQMygPegUIARDJAQ "readme-maker Screenshot")
+  N/A
 
 
   ## Contributing:
