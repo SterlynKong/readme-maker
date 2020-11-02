@@ -2,7 +2,7 @@
   
 
   ## Description:
-  This application, written in NODE, will generate a README.md based on responses to prompts at the commandline provided by a user.
+  This application, written in NODE, will generate a READEME.md file according to best practices based on user responses to command line prompts.
 
 
 
@@ -12,7 +12,7 @@
   * [License](#license)
   * [Tests](#testing)
   * [URL](#url)
-  * [Screen-Shot](#screenshot)
+  * [Screen-Shot](#image)
   * [Contributing](#contributing)
   * [Questions](#questions)
 
@@ -47,7 +47,7 @@
 
 
   ## Image:
-  ![readme-maker](https://drive.google.com/file/d/1WN0QgWW5sa-ww7rJK4Uil02FtpNTIoCe/view "readme-maker Screenshot")
+  ![readme-maker](/img/demo.gif "readme-maker Screenshot")
 
 
   ## Contributing:
