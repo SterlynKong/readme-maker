@@ -2,7 +2,7 @@
   
 
   ## Description:
-  This application, written in noded will create a README.md file based on input provided by a user at prompts at the command line.
+  This application, written in NODE, will generate a README.md based on responses to prompts at the commandline provided by a user.
 
 
 
@@ -47,7 +47,7 @@
 
 
   ## Image:
-  N/A
+  ![readme-maker](https://drive.google.com/file/d/1WN0QgWW5sa-ww7rJK4Uil02FtpNTIoCe/view "readme-maker Screenshot")
 
 
   ## Contributing:
